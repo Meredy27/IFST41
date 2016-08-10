@@ -5,6 +5,11 @@ package org.nlj;
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        String hello = "Hello";
+        String space = "";
+        String delimiter = ",";
+        String world = "World";
+        String mark = "!";
+        System.out.println(hello+delimiter+space+world+mark);
     }
 }
